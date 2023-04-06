@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Module :  Decodable , Identifiable {
+struct Module: Decodable, Identifiable {
     
     var id: Int
     var category: String
@@ -16,16 +16,16 @@ struct Module :  Decodable , Identifiable {
 }
 
 
-struct Content: Decodable , Identifiable {
+struct Content: Decodable, Identifiable {
     
     var id: Int
     var image: String
     var time: String
     var description: String
-    var lesson: [Lesson]
+    var lessons: [Lesson]
 }
 
-struct Lesson: Decodable , Identifiable {
+struct Lesson: Decodable, Identifiable {
     
     var id: Int
     var title: String
@@ -34,8 +34,8 @@ struct Lesson: Decodable , Identifiable {
     var explanation: String
 }
 
-struct Test: Decodable , Identifiable {
-    
+struct Test: Decodable, Identifiable {
+
     var id : Int
     var image : String
     var time: String
@@ -43,7 +43,7 @@ struct Test: Decodable , Identifiable {
     var questions : [Questions]
 }
 
-struct Questions : Decodable, Identifiable {
+struct Questions: Decodable, Identifiable {
     
     var id: Int
     var content: String
