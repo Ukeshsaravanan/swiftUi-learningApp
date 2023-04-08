@@ -19,7 +19,7 @@ struct ContentView: View {
                 
                 if model.currentModule != nil {
                     
-                    ForEach(0..<model.currentModule!.content.lessons.count) { index in
+                    ForEach(0..<model.currentModule!.content.lessons.count, id: \.self) { index in
                         
                         let lesson = model.currentModule!.content.lessons[index]
                         

@@ -20,6 +20,8 @@
 		6F390D3229DEC527001605C3 /* ContentDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F390D3129DEC527001605C3 /* ContentDetailView.swift */; };
 		6F390D3529DEF2C7001605C3 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F390D3429DEF2C7001605C3 /* AVKit.framework */; };
 		6F390D3729DEF3B7001605C3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F390D3629DEF3B7001605C3 /* Constants.swift */; };
+		6F390D3929DEFE6A001605C3 /* CodeTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F390D3829DEFE6A001605C3 /* CodeTextView.swift */; };
+		6F9F970429E130C7006F830E /* RectangleCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9F970329E130C7006F830E /* RectangleCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		6F390D3129DEC527001605C3 /* ContentDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentDetailView.swift; sourceTree = "<group>"; };
 		6F390D3429DEF2C7001605C3 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 		6F390D3629DEF3B7001605C3 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		6F390D3829DEFE6A001605C3 /* CodeTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeTextView.swift; sourceTree = "<group>"; };
+		6F9F970329E130C7006F830E /* RectangleCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 				6F390D2D29DEA001001605C3 /* HomeViewRow.swift */,
 				6F390D2F29DEA951001605C3 /* ContentView.swift */,
 				6F390D3129DEC527001605C3 /* ContentDetailView.swift */,
+				6F390D3829DEFE6A001605C3 /* CodeTextView.swift */,
+				6F9F970329E130C7006F830E /* RectangleCard.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -218,9 +224,11 @@
 				6F390D1529DE7E2D001605C3 /* HomeView.swift in Sources */,
 				6F390D2E29DEA001001605C3 /* HomeViewRow.swift in Sources */,
 				6F390D3029DEA951001605C3 /* ContentView.swift in Sources */,
+				6F9F970429E130C7006F830E /* RectangleCard.swift in Sources */,
 				6F390D3229DEC527001605C3 /* ContentDetailView.swift in Sources */,
 				6F390D1329DE7E2D001605C3 /* LearningAPP.swift in Sources */,
 				6F390D2629DE7F41001605C3 /* ContentModel.swift in Sources */,
+				6F390D3929DEFE6A001605C3 /* CodeTextView.swift in Sources */,
 				6F390D2C29DE8C8C001605C3 /* Model.swift in Sources */,
 				6F390D3729DEF3B7001605C3 /* Constants.swift in Sources */,
 			);
